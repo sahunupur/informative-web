@@ -3,36 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Glassmorphism Design</title>
+    <title>Informative Web</title>
     <style>
         body {
-            background: linear-gradient(to right, #e66465, #9198e5);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            background: linear-gradient(135deg, rgba(70, 120, 200, 0.8), rgba(150, 60, 200, 0.8));
+            font-family: Arial, sans-serif;
+            color: #ffffff;
             margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            -webkit-background-clip: text;
+            color: transparent;
         }
         .card {
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
+            border-radius: 15px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            width: 300px;
-            text-align: center;
-            transition: transform 0.2s;
+            margin: 20px;
+            transition: all 0.3s;
         }
         .card:hover {
             transform: scale(1.05);
+            box-shadow: 0 6px 50px rgba(0, 0, 0, 0.15);
+        }
+        button {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            border: none;
+            border-radius: 12px;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        button:hover {
+            background: rgba(0, 255, 255, 0.7);
+            transform: scale(1.1);
         }
     </style>
 </head>
 <body>
+    <h1>Informative Web</h1>
+
     <div class="card">
-        <h1>Hello, World!</h1>
-        <p>This is a modern glassmorphism card.</p>
-        <button style="border-radius: 10px; padding: 10px 20px;">Click Me</button>
+        <h2>Social Security Number</h2>
+        <p>Placeholder content for SSN functionality.</p>
     </div>
+
+    <div class="card">
+        <h2>DMV Services</h2>
+        <p>Placeholder content for DMV functionality.</p>
+    </div>
+
+    <div class="card">
+        <h2>Banking Services</h2>
+        <p>Placeholder content for Banking functionality.</p>
+    </div>
+
+    <div class="card">
+        <h2>Credit Services</h2>
+        <p>Placeholder content for Credit functionality.</p>
+    </div>
+
+    <div class="card">
+        <h2>Phone Services</h2>
+        <p>Placeholder content for Phone functionality.</p>
+    </div>
+
+    <div class="card">
+        <h2>Housing Checklist</h2>
+        <p>Placeholder content for Housing checklist functionality.</p>
+    </div>
+
+    <button>Search</button>
+    <button>Filter</button>
+    <button>Track Progress</button>
 </body>
 </html>
